@@ -1,0 +1,14 @@
+.friendsItemAvatar {
+  margin-bottom: 15px;
+}
+.friendsItemName {
+  font-weight: 600;
+}
+.friendsItemStats {
+}
+.friendsItemStats.online {
+  color: rgb(0, 219, 73);
+}
+.friendsItemStats.offline {
+  color: rgb(243, 53, 53);
+}

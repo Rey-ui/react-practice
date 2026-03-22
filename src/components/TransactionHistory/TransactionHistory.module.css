@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Стили для четных строк (белые) */
+table tr:nth-child(even) {
+  background-color: #bbbaba;
+}
+
+/* Стили для нечетных строк (серые) */
+table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Стили для ячеек в заголовке (можно настроить по вашему усмотрению) */
+table th {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+/* Стили для ячеек в теле таблицы (можно настроить по вашему усмотрению) */
+table td {
+  padding: 10px;
+  color: #000;
+  text-align: center;
+  border: 1px solid #000000;
+}
